@@ -1,0 +1,704 @@
+{
+    "sorular": [
+        {
+            "kategori": "programlama",
+            "seviye": "kolay",
+            "soru": "Aşağıdakilerden hangisi istemci taraflı bir web programlama dilidir?",
+            "secenekA": "PHP",
+            "secenekB": "ASP",
+            "secenekC": "JavaScript",
+            "secenekD": "JSON",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "orta",
+            "soru": "Aşağıdakilerden hangisi JavaScript ile nesne yakalama fonksiyonlarından değildir?",
+            "secenekA": "getElementByID()",
+            "secenekB": "getElementsClassName()",
+            "secenekC": "getSelector()",
+            "secenekD": "querySelectorAll()",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "kolay",
+            "soru": "Aşağıdakilerden hangisi bir döngü yapısıdır?",
+            "secenekA": "if-else",
+            "secenekB": "for",
+            "secenekC": "function",
+            "secenekD": "switch",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "orta",
+            "soru": "Java'da bir sınıfın yapıcı metodu nasıl tanımlanır?",
+            "secenekA": "constructor className()",
+            "secenekB": "class className()",
+            "secenekC": "void className()",
+            "secenekD": "className()",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "kolay",
+            "soru": "Aşağıdakilerden hangisi bir HTML etiketi değildir?",
+            "secenekA": "<div>",
+            "secenekB": "<span>",
+            "secenekC": "<style>",
+            "secenekD": "<function>",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "orta",
+            "soru": "Python'da bir liste oluşturmanın doğru yolu nedir?",
+            "secenekA": "list = ()",
+            "secenekB": "list = {}",
+            "secenekC": "list = []",
+            "secenekD": "list = <>",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "kolay",
+            "soru": "Aşağıdakilerden hangisi bir veri tipi değildir?",
+            "secenekA": "String",
+            "secenekB": "Boolean",
+            "secenekC": "Function",
+            "secenekD": "Object",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "orta",
+            "soru": "Aşağıdakilerden hangisi CSS'de bir stil tanımlama yöntemidir?",
+            "secenekA": "innerHTML",
+            "secenekB": "getElementById",
+            "secenekC": "style",
+            "secenekD": "querySelector",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "zor",
+            "soru": "Aşağıdakilerden hangisi bir asenkron JavaScript fonksiyonudur?",
+            "secenekA": "setTimeout()",
+            "secenekB": "alert()",
+            "secenekC": "document.write()",
+            "secenekD": "getElementById()",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "programlama",
+            "seviye": "zor",
+            "soru": "Aşağıdakilerden hangisi bir veritabanı sorgu dili değildir?",
+            "secenekA": "SQL",
+            "secenekB": "NoSQL",
+            "secenekC": "Java",
+            "secenekD": "MongoDB",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "kolay",
+            "soru": "5 + 3 işleminin sonucu kaçtır?",
+            "secenekA": "6",
+            "secenekB": "7",
+            "secenekC": "8",
+            "secenekD": "9",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "orta",
+            "soru": "Bir dik üçgenin iki dik kenarı 3 ve 4 birimdir. Hipotenüsün uzunluğu nedir?",
+            "secenekA": "5 birim",
+            "secenekB": "6 birim",
+            "secenekC": "7 birim",
+            "secenekD": "8 birim",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "kolay",
+            "soru": "Bir çemberin çevresini bulmak için hangi formül kullanılır?",
+            "secenekA": "C = 2 * π * r",
+            "secenekB": "C = π * r^2",
+            "secenekC": "C = r * h",
+            "secenekD": "C = 2 * r",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "orta",
+            "soru": "Bir sayı 3 ile çarpıldığında 21 elde ediliyor. Bu sayı nedir?",
+            "secenekA": "5",
+            "secenekB": "7",
+            "secenekC": "9",
+            "secenekD": "11",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "kolay",
+            "soru": "Bir dikdörtgenin alanı nasıl hesaplanır?",
+            "secenekA": "Uzunluk + Genişlik",
+            "secenekB": "Uzunluk * Genişlik",
+            "secenekC": "2 * (Uzunluk + Genişlik)",
+            "secenekD": "Uzunluk - Genişlik",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "orta",
+            "soru": "Bir sayının yüzde 20'si 50'dir. Bu sayı nedir?",
+            "secenekA": "150",
+            "secenekB": "200",
+            "secenekC": "250",
+            "secenekD": "300",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "kolay",
+            "soru": "Aşağıdakilerden hangisi bir asal sayıdır?",
+            "secenekA": "4",
+            "secenekB": "6",
+            "secenekC": "7",
+            "secenekD": "8",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "orta",
+            "soru": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+            "secenekA": "90",
+            "secenekB": "180",
+            "secenekC": "270",
+            "secenekD": "360",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "zor",
+            "soru": "Bir cebirsel ifade: 3x + 4x - 2x ifadesinin sonucu nedir?",
+            "secenekA": "5x",
+            "secenekB": "4x",
+            "secenekC": "6x",
+            "secenekD": "7x",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "matematik",
+            "seviye": "zor",
+            "soru": "Bir küpün hacmi 27 birim küp ise, bir kenarının uzunluğu nedir?",
+            "secenekA": "3 birim",
+            "secenekB": "4 birim",
+            "secenekC": "5 birim",
+            "secenekD": "6 birim",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "kolay",
+            "soru": "Türkiye'nin başkenti neresidir?",
+            "secenekA": "İstanbul",
+            "secenekB": "Ankara",
+            "secenekC": "İzmir",
+            "secenekD": "Bursa",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "orta",
+            "soru": "Bir yıl kaç gündür (normal yıl)?",
+            "secenekA": "360",
+            "secenekB": "365",
+            "secenekC": "366",
+            "secenekD": "364",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "kolay",
+            "soru": "Dünyanın en yüksek dağı hangisidir?",
+            "secenekA": "K2",
+            "secenekB": "Everest",
+            "secenekC": "Kilimanjaro",
+            "secenekD": "Aconcagua",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "orta",
+            "soru": "Hangi gezegen Güneş Sistemi'nde en büyüğüdür?",
+            "secenekA": "Mars",
+            "secenekB": "Venüs",
+            "secenekC": "Jüpiter",
+            "secenekD": "Satürn",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "kolay",
+            "soru": "En büyük okyanus hangisidir?",
+            "secenekA": "Atlantik Okyanusu",
+            "secenekB": "Hint Okyanusu",
+            "secenekC": "Pasifik Okyanusu",
+            "secenekD": "Kuzey Buz Denizi",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "orta",
+            "soru": "Şu anda hangi çağda yaşıyoruz?",
+            "secenekA": "Sanayi Çağı",
+            "secenekB": "Bilgi Çağı",
+            "secenekC": "Tarım Çağı",
+            "secenekD": "Endüstri Çağı",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "kolay",
+            "soru": "Hangi renkler Türk bayrağında yer alır?",
+            "secenekA": "Kırmızı-Beyaz",
+            "secenekB": "Mavi-Beyaz",
+            "secenekC": "Sarı-Kırmızı",
+            "secenekD": "Yeşil-Mavi",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "orta",
+            "soru": "Birleşmiş Milletler'in kurulduğu yıl nedir?",
+            "secenekA": "1945",
+            "secenekB": "1950",
+            "secenekC": "1960",
+            "secenekD": "1975",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "zor",
+            "soru": "Mona Lisa tablosunun ressamı kimdir?",
+            "secenekA": "Pablo Picasso",
+            "secenekB": "Vincent van Gogh",
+            "secenekC": "Leonardo da Vinci",
+            "secenekD": "Claude Monet",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "genel kültür",
+            "seviye": "zor",
+            "soru": "Dünyanın en büyük çölü hangisidir?",
+            "secenekA": "Gobi Çölü",
+            "secenekB": "Sahara Çölü",
+            "secenekC": "Kalahari Çölü",
+            "secenekD": "Atacama Çölü",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "kolay",
+            "soru": "Futbolda bir takım sahada kaç oyuncu ile oynar?",
+            "secenekA": "10",
+            "secenekB": "11",
+            "secenekC": "12",
+            "secenekD": "13",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "orta",
+            "soru": "Teniste 'Grand Slam' turnuvalarından biri aşağıdakilerden hangisidir?",
+            "secenekA": "Wimbledon",
+            "secenekB": "Ryder Cup",
+            "secenekC": "Tour de France",
+            "secenekD": "Super Bowl",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "kolay",
+            "soru": "Hangi spor dalında 'slam dunk' terimi kullanılır?",
+            "secenekA": "Futbol",
+            "secenekB": "Basketbol",
+            "secenekC": "Voleybol",
+            "secenekD": "Buz Hokeyi",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "orta",
+            "soru": "Aşağıdaki sporcularından hangisi yüzme dalında en başarılıdır?",
+            "secenekA": "Usain Bolt",
+            "secenekB": "Michael Phelps",
+            "secenekC": "Lionel Messi",
+            "secenekD": "Roger Federer",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "kolay",
+            "soru": "Bir basketbol maçında kaç çeyrek vardır?",
+            "secenekA": "2",
+            "secenekB": "3",
+            "secenekC": "4",
+            "secenekD": "5",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "orta",
+            "soru": "Formula 1'de hangi takvimde yer alan yarışlar düzenlenir?",
+            "secenekA": "MotoGP",
+            "secenekB": "Ralli",
+            "secenekC": "Grand Prix",
+            "secenekD": "Nascar",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "kolay",
+            "soru": "Hangi spor dalında 'offside' kuralı vardır?",
+            "secenekA": "Basketbol",
+            "secenekB": "Futbol",
+            "secenekC": "Hokey",
+            "secenekD": "Voleybol",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "orta",
+            "soru": "Aşağıdakilerden hangisi bir ekip sporu değildir?",
+            "secenekA": "Futbol",
+            "secenekB": "Basketbol",
+            "secenekC": "Yüzme",
+            "secenekD": "Voleybol",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "kolay",
+            "soru": "Olimpiyat Oyunları hangi dönemde yapılır?",
+            "secenekA": "Her yıl",
+            "secenekB": "Her dört yılda bir",
+            "secenekC": "Her iki yılda bir",
+            "secenekD": "Her altı yılda bir",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "spor",
+            "seviye": "orta",
+            "soru": "Dünyanın en çok izlenen spor etkinliği hangisidir?",
+            "secenekA": "Super Bowl",
+            "secenekB": "Dünya Kupası",
+            "secenekC": "Şampiyonlar Ligi",
+            "secenekD": "Wimbledon",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "kolay",
+            "soru": "Dünyanın en büyük okyanusu hangisidir?",
+            "secenekA": "Atlas Okyanusu",
+            "secenekB": "Hint Okyanusu",
+            "secenekC": "Büyük Okyanus (Pasifik)",
+            "secenekD": "Arktik Okyanusu",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "orta",
+            "soru": "Türkiye'nin en yüksek dağı aşağıdakilerden hangisidir?",
+            "secenekA": "Kaçkar Dağı",
+            "secenekB": "Erciyes Dağı",
+            "secenekC": "Ağrı Dağı",
+            "secenekD": "Palandöken Dağı",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "kolay",
+            "soru": "Dünyanın en uzun nehri hangisidir?",
+            "secenekA": "Amazon Nehri",
+            "secenekB": "Nil Nehri",
+            "secenekC": "Yangtze Nehri",
+            "secenekD": "Mississippi Nehri",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "orta",
+            "soru": "Hangi ülke hem Avrupa hem de Asya kıtalarında yer almaktadır?",
+            "secenekA": "Rusya",
+            "secenekB": "Türkiye",
+            "secenekC": "Mısır",
+            "secenekD": "İran",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "kolay",
+            "soru": "Dünyanın en yüksek dağı hangisidir?",
+            "secenekA": "K2",
+            "secenekB": "Kangchenjunga",
+            "secenekC": "Everest",
+            "secenekD": "Lhotse",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "orta",
+            "soru": "Hangi okyanus en küçük okyanustur?",
+            "secenekA": "Hint Okyanusu",
+            "secenekB": "Atlas Okyanusu",
+            "secenekC": "Arktik Okyanusu",
+            "secenekD": "Pasifik Okyanusu",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "kolay",
+            "soru": "En büyük çöl hangisidir?",
+            "secenekA": "Sahara",
+            "secenekB": "Gobi",
+            "secenekC": "Kalahari",
+            "secenekD": "Antarktika Çölü",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "orta",
+            "soru": "Türkiye'nin en büyük gölü hangisidir?",
+            "secenekA": "Van Gölü",
+            "secenekB": "Tuz Gölü",
+            "secenekC": "Sapanca Gölü",
+            "secenekD": "Körfez Gölü",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "kolay",
+            "soru": "Hangi ülkenin yüzölçümü en büyüktür?",
+            "secenekA": "Kanada",
+            "secenekB": "Çin",
+            "secenekC": "Brezilya",
+            "secenekD": "Rusya",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "coğrafya",
+            "seviye": "orta",
+            "soru": "Hangi dağ sırası Himalaya Dağları'nın bir parçasıdır?",
+            "secenekA": "Alpler",
+            "secenekB": "Andlar",
+            "secenekC": "Himalaya Dağları",
+            "secenekD": "Rocky Dağları",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "kolay",
+            "soru": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+            "secenekA": "Mars",
+            "secenekB": "Venüs",
+            "secenekC": "Jüpiter",
+            "secenekD": "Merkür",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "orta",
+            "soru": "İnsan vücudundaki en uzun kemik hangisidir?",
+            "secenekA": "Kaval kemiği",
+            "secenekB": "Uyluk kemiği",
+            "secenekC": "Kol kemiği",
+            "secenekD": "Omurga",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "kolay",
+            "soru": "Su, hangi bileşenlerden oluşur?",
+            "secenekA": "Hidrojen ve Karbon",
+            "secenekB": "Hidrojen ve Oksijen",
+            "secenekC": "Oksijen ve Azot",
+            "secenekD": "Hidrojen ve Kükürt",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "orta",
+            "soru": "Dünyanın en büyük canlı organizması hangisidir?",
+            "secenekA": "Hücre",
+            "secenekB": "Dev Palamut",
+            "secenekC": "Dev Mantar",
+            "secenekD": "Bambu",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "kolay",
+            "soru": "Hangi gaz atmosferin en büyük kısmını oluşturur?",
+            "secenekA": "Oksijen",
+            "secenekB": "Hidrojen",
+            "secenekC": "Karbon Dioksit",
+            "secenekD": "Azot",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "orta",
+            "soru": "Işık hızı nedir?",
+            "secenekA": "300.000 km/s",
+            "secenekB": "150.000 km/s",
+            "secenekC": "450.000 km/s",
+            "secenekD": "500.000 km/s",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "kolay",
+            "soru": "Dünyanın uydusu hangisidir?",
+            "secenekA": "Mars",
+            "secenekB": "Ay",
+            "secenekC": "Venüs",
+            "secenekD": "Jüpiter",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "orta",
+            "soru": "Hangi element suyun bileşenidir?",
+            "secenekA": "Hidrojen",
+            "secenekB": "Karbon",
+            "secenekC": "Oksijen",
+            "secenekD": "Her ikisi de",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "kolay",
+            "soru": "Mikroskop neyi büyütmek için kullanılır?",
+            "secenekA": "Büyük nesneleri",
+            "secenekB": "Küçük nesneleri",
+            "secenekC": "Uzaktan görünümü",
+            "secenekD": "Görsel sanatları",
+            "dogruCevap": "secenekB"
+        },
+        {
+            "kategori": "bilim",
+            "seviye": "orta",
+            "soru": "Dünyadaki en yoğun element hangisidir?",
+            "secenekA": "Demir",
+            "secenekB": "Plütonyum",
+            "secenekC": "Altın",
+            "secenekD": "Osmanyum",
+            "dogruCevap": "secenekD"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "kolay",
+            "soru": "Osmanlı İmparatorluğu'nun resmi kurucusu kimdir?",
+            "secenekA": "Osman Gazi",
+            "secenekB": "Orhan Gazi",
+            "secenekC": "Fatih Sultan Mehmet",
+            "secenekD": "Yavuz Sultan Selim",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "kolay",
+            "soru": "Mısır piramitleri hangi medeniyete aittir?",
+            "secenekA": "Yunan",
+            "secenekB": "Roma",
+            "secenekC": "Mısır",
+            "secenekD": "Pers",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "kolay",
+            "soru": "Hititler hangi yazıyı kullanmışlardır?",
+            "secenekA": "Çin yazısı",
+            "secenekB": "Hiyeroglif",
+            "secenekC": "Hitit hiyeroglifleri",
+            "secenekD": "Latin alfabesi",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Rönesans hangi yüzyılda başlamıştır?",
+            "secenekA": "14. yüzyıl",
+            "secenekB": "15. yüzyıl",
+            "secenekC": "16. yüzyıl",
+            "secenekD": "17. yüzyıl",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Amerika Birleşik Devletleri'nin bağımsızlık bildirisini imzaladığı yıl nedir?",
+            "secenekA": "1776",
+            "secenekB": "1789",
+            "secenekC": "1812",
+            "secenekD": "1865",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Fransız Devrimi hangi yıl başlamıştır?",
+            "secenekA": "1789",
+            "secenekB": "1799",
+            "secenekC": "1765",
+            "secenekD": "1815",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Tarihteki ilk yazılı antlaşma hangisidir?",
+            "secenekA": "Kadeş Antlaşması",
+            "secenekB": "Medeniyet Antlaşması",
+            "secenekC": "Nehri Antlaşması",
+            "secenekD": "Girit Antlaşması",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "II. Dünya Savaşı'nda hangi ülke Müttefik Devletler arasında yer almıştır?",
+            "secenekA": "Almanya",
+            "secenekB": "Japonya",
+            "secenekC": "Sovyetler Birliği",
+            "secenekD": "İtalya",
+            "dogruCevap": "secenekC"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Tamerlane (Timur) hangi bölgeyi fethetmiştir?",
+            "secenekA": "Asya",
+            "secenekB": "Avrupa",
+            "secenekC": "Kuzey Amerika",
+            "secenekD": "Güney Amerika",
+            "dogruCevap": "secenekA"
+        },
+        {
+            "kategori": "tarih",
+            "seviye": "orta",
+            "soru": "Osmanlı İmparatorluğu'nun Batı'ya açılan kapısı olarak bilinen şehir hangisidir?",
+            "secenekA": "İstanbul",
+            "secenekB": "Edirne",
+            "secenekC": "Bursa",
+            "secenekD": "Konya",
+            "dogruCevap": "secenekB"
+        }
+    ]
+}

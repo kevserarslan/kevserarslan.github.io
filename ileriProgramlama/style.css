@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url(arka.jpg);/* Arka plan  */
+  background-size: cover; /* Resmi tam kapsaması için */
+  background-position: center; /* Resmi ortalamak için */
+  background-repeat: no-repeat; /* Resmin tekrarlanmaması için */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ffffff; /* Yazı rengini beyaz yaparak okunabilirliği artırdık */
+}
+
+#kategoriSecimi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#kategoriListesi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Gaps between categories increased */
+  justify-content: center;
+}
+
+.kategori {
+  width: 200px; /* Kategori kutusu boyutunu artırdık */
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 15px; /* Kenar yuvarlatma artırıldı */
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Gölge geçişi eklendi */
+}
+
+.kategori:hover {
+  transform: scale(1.05); /* Hover durumunda büyüme efekti eklendi */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1); /* Hover durumunda gölge etkisi */
+}
+
+.kategori span {
+  position: relative;
+  z-index: 1;
+  color: rgb(13, 0, 128);
+  font-size: 1.8rem; /* Font boyutu artırıldı */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.kategori:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+
+.kategori::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1); /* Arka plan siyah yaptı*/
+  z-index: 0;
+  transition: background 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.kategori:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.kategori[data-kategori="genel kültür"] {
+ 
+  background-image: url('tarih.jpg');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="programlama"] {
+ 
+  background-image: url('pexels-luis-gomes-166706-546819.jpg');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="matematik"] {
+  
+  background-image: url('mat5.avif');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="spor"] {
+  
+  background-image: url('pexels-pixabay-47730.jpg');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="coğrafya"] {
+  
+  background-image: url('travel-composition-with-camera_23-2147982048.jpg');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="bilim"] {
+ 
+  background-image: url('Resim6.png');
+  border: 2px solid #000000;
+}
+
+.kategori[data-kategori="tarih"] {
+  
+  background-image: url('pexels-furkanelveren-26081858.jpg');
+  border: 2px solid #000000;
+}
+
+button {
+  background-color: #8e44ad; /* Buton rengi */
+  color: #fff;
+  border: none;
+  font-size: 1.6rem; /* Font boyutu artırıldı */
+  padding: 1.5rem 2rem; /* Buton içindeki boşluk artırıldı */
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease; /* Geçiş efekti eklendi */
+}
+
+button:hover {
+  background-color: #732d91;
+  transform: scale(1.05); /* Hover durumunda butonun büyümesi eklendi */
+}
+
+button:focus {
+  outline: none;
+  background-color: #5e3370;
+}
+
+h2 {
+  font-size: 2.6rem; /* Başlık boyutu artırıldı */
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff; /* Başlık rengini beyaz yaparak okunabilirliği artırdık */
+}
+
+.soruGoster {
+  background-color: rgba(255, 255, 255, 0.9); /* Soru arka plan rengini transparan hale getirdik */
+  border-radius: 15px; /* Kenarları daha çok yuvarladık */
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Gölge efekti artırıldı */
+  margin-bottom: 2rem;
+}
+
+#soru {
+  font-size: 2.2rem; /* Soru metni boyutu artırıldı */
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.secenek {
+  margin-right: 0.5rem;
+}
+
+label {
+  font-size: 1.6rem; /* Cevap seçenekleri metin boyutu */
+  color: #555; /* Cevap seçenekleri metin rengi */
+}
+
+#zamanlayici {
+  font-size: 2rem; /* Zaman metni boyutu */
+  color: #ffffff; /* Zaman metni rengi */
+  background-color: red; /* Zaman arka plan rengi */
+  border: 2px solid #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Zamanlayıcı için gölge eklendi */
+}
+h1 {
+  font-size: 4rem; /* Başlık boyutu */
+  color: #ffffff; /* Yazı rengi */
+  text-align: center; /* Ortada hizalama */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Daha belirgin gölge */
+  margin-bottom: 2rem; /* Alt boşluk */
+  background: linear-gradient(135deg, #0022ff, #091e3b); /* Renk geçişi */
+  padding: 10px; /* İç boşluk */
+  border-radius: 10px; /* Kenar yuvarlatma */
+  border: 2px solid #000000; /* Beyaz kenar çizgisi */
+  letter-spacing: 2px; /* Harf aralığını artırma */
+  display: inline-block; /* Yalnızca içerik kadar genişlikte olmasını sağla */
+  animation: pulse 2s infinite;  /*Başlık için animasyon */
+}
+
+h1:hover {
+  transform: scale(1.05); /* Başlığı büyütme */
+  transition: transform 0.3s ease; /* Geçiş efekti */
+}
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+}
+
+h1 {
+  animation: pulse 2s infinite; /* Başlık için animasyon */
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 3rem; /* Mobil cihazlarda başlık boyutunu küçültme */
+  }
+  .kategori {
+      width: 100%; /* Kategori kutularını tam genişlikte yapma */
+      height: auto; /* Yüksekliği otomatik yapma */
+  }
+}
+
+@media (max-width: 480px) {
+  button {
+      font-size: 1.4rem; /* Mobil cihazlar için buton font boyutunu küçültme */
+      padding: 1rem; /* Buton içindeki boşlukları azaltma */
+  }
+}
